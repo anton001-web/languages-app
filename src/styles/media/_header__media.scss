@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+  .header_btn {
+    display: none;
+  }
+
+  .headerList_container {
+    position: fixed;
+    height: 100%;
+    width: 85%;
+    bottom: 0;
+    margin: 0;
+    left: -120%;
+    z-index: 9999;
+  }
+
+  .header_list {
+    padding-top: 15px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+
+    .headerList__item {
+      font-size: 24px;
+      margin: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .burger_close {
+    display: block;
+    background-color: #fff;
+  }
+
+  .hidden_desktop {
+    display: block;
+    background-color: #fff;
+  }
+}

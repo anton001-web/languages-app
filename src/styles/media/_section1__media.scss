@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+  .section_content {
+    grid-template-columns: 1fr;
+  }
+
+  .section_info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section_img {
+    grid-row: 1;
+  }
+
+  .section_title {
+    width: auto;
+    font-size: 44px;
+  }
+}

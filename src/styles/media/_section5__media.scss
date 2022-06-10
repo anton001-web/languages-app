@@ -1,0 +1,36 @@
+@media screen and (max-width: 767px) {
+  .section__content {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form__input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .form__submit {
+    width: 80%;
+    margin-left: 0px;
+    padding: 0;
+  }
+
+  .form__title {
+    display: none;
+  }
+
+  .formTitle__hidden {
+    display: block;
+  }
+
+  .form__text {
+    text-align: center;
+  }
+}

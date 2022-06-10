@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+  .price__block {
+    grid-template-columns: 1fr;
+  }
+
+  .priceItem__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      width: 100%;
+    }
+  }
+}
